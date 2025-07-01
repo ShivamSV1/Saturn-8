@@ -1,7 +1,8 @@
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default function CategoryPage() {
   return (
     <div>
-      <h1>Viewing article: {params.slug}</h1>
+      <h1>Article Listing Page</h1>
+      <p>This is the static article page.</p>
     </div>
   );
 }
